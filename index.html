@@ -33,7 +33,7 @@
   <section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative;">
     <div class="hero-video" style="height: 100%; width: 177.77777778vh; min-width: 100%;min-height: 56.25vw;">
       <video playsinline autoplay muted loop>
-        <source src=" ./resources/cover.mp4" type="video/mp4">
+        <source src="./resources/drift_policy.mp4" type="video/mp4">
       </video>
     </div>
     <div class="hero-video is-hidden-tablet is-inline-block-mobile"
@@ -49,24 +49,24 @@
         <div class="container is-size-5">
           <div class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item pl-4 pr-4" href="./resources/anycar.pdf">
+              <a class="navbar-item pl-4 pr-4" href="">
                 <span class="icon" style="margin-right:5px;">
                   <img src="./static/images/pdf.svg" alt="PDF" />
                 </span>
                 <span>Paper</span>
               </a>
-              <a class="navbar-item  pl-4 pr-4" href="https://arxiv.org/abs/2409.15783">
+              <a class="navbar-item  pl-4 pr-4" href="">
                 <span class="icon" style="margin-right:5px;">
                   <img src="./static/images/arxiv.svg" alt="ArXiv" />
                 </span>
                 <span>arXiv</span> </a>
-              <a href="https://www.youtube.com/embed/BiSYeNb0Y70" class="navbar-item  pl-4 pr-4">
+              <a href="" class="navbar-item  pl-4 pr-4">
                 <span class="icon" style="margin-right:5px;">
                   <img src="./static/images/youtube.svg" alt="Youtube" />
                 </span>
                 <span>Video</span> </a>
               <span class="navbar-item  pl-4 pr-4">
-                <a href="https://github.com/LeCAR-Lab/anycar" class="button is-inverted is-large">
+                <a href="https://github.com/UWRobotLearning/WheeledLab" class="button is-inverted is-large">
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
@@ -85,8 +85,8 @@
         <h1 class="title is-1 publication-title is-size-1-mobile" style="font-size: 8rem;">
          Wheeled Lab
         </h1>
-        <h1 class="subtitle is-1 publication-title is-size-4-mobile" style="font-size: 4rem;">
-          Description <br> Description
+        <h1 class="subtitle is-1 publication-title is-size-4-mobile" style="font-size: 3rem;">
+          Modern Sim2Real for Low-cost, Open-source Wheeled Robotics
         </h1>
         <span class="author-block" style="font-size: 2rem;">
           <a href="https://thanandnow.github.io/">Tyler Han</a>&nbsp;&nbsp;
@@ -94,7 +94,12 @@
           <a href="https://www.linkedin.com/in/sidharth-rajagopal-66932a221/">Sidharth Rajagopal</a>&nbsp;&nbsp;
           <a href="https://www.linkedin.com/in/yanda-bao/">Yanda Bao</a>&nbsp;&nbsp;
           <a href="https://shjung13.github.io/">Sanghun Jung</a>&nbsp;&nbsp;
-          <a href="https://www.gshi.me/">Byron Boots</a>&nbsp;&nbsp;
+          <a href="https://shjung13.github.io/">Sidharth Talia</a>&nbsp;&nbsp;
+          <a href="https://shjung13.github.io/">Bryan Xu</a>&nbsp;&nbsp;
+          <a href="https://shjung13.github.io/">Bhaumik Mehta</a>&nbsp;&nbsp;
+          <a href="https://shjung13.github.io/">Gabriel Guo</a>&nbsp;&nbsp;
+          <a href="https://rosarioscalise.com/">Rosario Scalise</a>&nbsp;&nbsp;
+          <a href="https://homes.cs.washington.edu/~bboots/">Byron Boots</a>&nbsp;&nbsp;
         </span>
         <h1 class="is-2 is-italic is-size-4-mobile" style="font-size: 2rem;">
           In Submission
@@ -103,7 +108,7 @@
           <div class="publication-links">
             <!-- PDF Link. -->
             <span class="link-block">
-              <a href="./resources/anycar.pdf" class="external-link button is-normal is-rounded is-dark">
+              <a href="" class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <img src="./static/images/pdf.svg" alt="PDF" />
                 </span>
@@ -111,7 +116,7 @@
               </a>
             </span>
             <span class="link-block">
-              <a href="https://arxiv.org/abs/2409.15783" class="external-link button is-normal is-rounded is-dark">
+              <a href="" class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <img src="./static/images/arxiv.svg" alt="ArXiv" />
                 </span>
@@ -120,7 +125,7 @@
             </span>
             <!-- Video Link. -->
             <span class="link-block">
-              <a href="https://www.youtube.com/embed/BiSYeNb0Y70" class="external-link button is-normal is-rounded is-dark">
+              <a href="" class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <img src="./static/images/youtube.svg" alt="Youtube" />
                 </span>
@@ -129,7 +134,7 @@
             </span>
             <!-- Code Link. -->
             <span class="link-block">
-              <a href="https://github.com/LeCAR-Lab/anycar"
+              <a href="https://github.com/UWRobotLearning/WheeledLab"
                 class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <i class="fab fa-github"></i>
@@ -197,21 +202,21 @@
   </div>
 </section>
 
-<h2 class="title is-2" style="text-align: center;">Deployment In the Wild</h2>
+<h2 class="title is-2" style="text-align: center;">Baseline vs Trained Policy</h2>
 <section class="section">
   <div class="container">
 
     <div class="columns is-centered">
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/drift-demo-clip.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 0.5%;"></video>
+        <video controls autoplay loop muted playsinline src="./resources/drift_policy.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 0.5%;"></video>
       </div>
     </div>
     <div class="columns is-centered">
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/outdoor-slam-tow-anycar.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <video controls autoplay loop muted playsinline src="./resources/drift_baseline.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
       </div>
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/outdoor-slam-tire-anycar.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <video controls autoplay loop muted playsinline src="./resources/drift_policy.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
       </div>
     </div>
     <!-- <div class="columns is-centered">
@@ -320,7 +325,7 @@
 </section> -->
 
 
-<section class="section" id="BibTeX">
+<!-- <section class="section" id="BibTeX">
   <div class="container content">
     <h2 class="titile">BibTeX</h2>
     <pre><code>@misc{xiao2024anycaranywherelearninguniversal,
@@ -333,7 +338,7 @@
       url={https://arxiv.org/abs/2409.15783}, 
 }</code></pre>
   </div>
-</section>
+</section> -->
 
 
 <footer class="footer">
